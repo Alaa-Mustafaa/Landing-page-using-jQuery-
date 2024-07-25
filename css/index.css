@@ -1,0 +1,187 @@
+/* Global properties*/
+body{
+    background-color: #FDFDF6;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* End of Global properties*/
+
+
+/* Home Section and navbar */
+#home{
+    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home-layer{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+}
+
+
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    color: white;
+    font-size: 20px;
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+  
+}
+
+.sidenav a:hover{
+    color:  #D62E33;
+}
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-layer h1{
+    font-size: 60px;
+}
+
+#egy{
+    margin-left: -180px;
+}
+#open-text{
+    margin-left: -500px;
+}
+/* End of Home Section and navbar */
+
+
+
+
+/* Singers Section */
+#singer h3{
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+
+
+}
+
+#singer div{
+    background-color: #ccc;
+}
+
+#word1,#word2,#word3,#word4{
+    display: none;
+}
+/*  End of Singers Section */
+
+
+
+
+/* Count Section */
+#bg-counter{
+    background-position: center center;
+    background-size: cover;
+    height: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+#counter-layer{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+
+}
+
+
+#counter-layer h2{
+    border: 1px solid white;
+    padding: 45px 4px;
+}
+
+/* End of Count Section */
+
+
+/* Join us Section  */
+
+#social-media i{
+    color: #777;
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#social-media i:hover{
+    color: white;
+    border: none;
+    background-color: #D62E33;
+}
+
+
+
+#join-us p{
+    color: #777;
+}
+
+/* End of Join us Section  */
+
+
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+
+    #open-text{
+        margin-left: -250px;
+    }
+
+
+}
+
+@media screen and (max-width: 680px) {
+
+    #open-text{
+        margin-left: -170px;
+    }
+
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    #open-text{
+        margin-left: -350px;
+    }
+
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    #open-text{
+        margin-left: -450px;
+    }
+
+
+}
